@@ -15,7 +15,6 @@
 - attr_protected =>  Blacklisting
 - attr_accessible =>  whitelisting
 - Problem :
--
 >One difficulty with whitelisting was that for the model to have different levels of accessibility, you would need an attr_accessible declaration for each level.
 
 **Strong Parameters in Rails 4**
