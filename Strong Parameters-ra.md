@@ -5,7 +5,7 @@
 
 
 
-##What Good are Strong Parameters?
+##Introduction
 
 **Mass Assignment in Rails 2**
 - Vulnerability
