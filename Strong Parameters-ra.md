@@ -33,29 +33,30 @@ adds an extra layer of security that prevents attackers from posting harmful or 
 - Add to Rail Core in 2014 (Rail 4.0)
 
 ##Installation
- ```
+ ```ruby
     gem 'strong_parameters'
 ```
 
 To activate the strong parameters, you need to include this module in every model you want protected.
- ```
+ 
+```ruby
 class Post < ActiveRecord::Base
   include ActiveModel::ForbiddenAttributesProtection
 end
- ```
+```
 Alternatively, you can protect all Active Record resources by default by creating an initializer and pasting the line:
- ```
+ ```ruby
 ActiveRecord::Base.send(:include, ActiveModel::ForbiddenAttributesProtection)
  ```
 If you want to now disable the default whitelisting that occurs in Rails 3.2, change the config.active_record.whitelist_attributes property in your config/application.rb:
- ```
+ ```ruby
 config.active_record.whitelist_attributes = false
  ```
 This will allow you to remove / not have to use attr_accessible and do mass assignment inside your code and tests.
 
 ## Example
 
- ```
+ ```ruby
 class PeopleController < ActionController::Base
   # This will raise an ActiveModel::ForbiddenAttributes exception
   # because it's using mass assignment without an explicit permit
@@ -87,20 +88,20 @@ end
  ```
 
 ### Nested Parameters
- ```
+ ```ruby
 params.permit(:name, { emails: [] },
               friends: [ :name,
                          { family: [ :name ], hobbies: [] }])
  ```
 
 **accepts_nested_attributes_for** allows you to update and destroy associated records. This is based on the id and _destroy parameters:
- ```
+ ```ruby
 # permit :id and :_destroy
 params.require(:author).permit(:name, books_attributes: [:title, :id, :_destroy])
  ```
 Hashes with integer keys are treated differently and you can declare the attributes as if they were direct children. You get these kinds of parameters when you use accepts_nested_attributes_for in combination with a has_many association:
 
- ```
+ ```ruby
 # To whitelist the following data:
 # {"book" => {"title" => "Some Book",
 #             "chapters_attributes" => { "1" => {"title" => "First Chapter"},
