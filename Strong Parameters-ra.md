@@ -1,9 +1,5 @@
-##Temario
-1. Strong Parameters gem
 
 #Strong Parameters
-
-
 
 ##Introduction
 
