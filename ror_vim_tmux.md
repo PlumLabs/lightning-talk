@@ -5,14 +5,13 @@
 too many to explain in a talk like this (Maybe later :D).
 
 ##Why I use vim?
+[Vim slides](http://slides.com/jonathanleonelgasparrini/vim/live)
 
 ##Installation
  ```bash
     brew install vim #For Mac OS X
     apt-get install vim #For Ubuntu or Debian derivatives
 ```
-
-[Vim slides](http://slides.com/jonathanleonelgasparrini/vim/live)
 
 ## _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 
@@ -24,13 +23,14 @@ too many to explain in a talk like this (Maybe later :D).
 detach them (they keep running in the background) and reattach them to a different terminal.
 * And do a lot more.
 
+##Why tmux?
+[Tmux slides](http://slides.com/jonathanleonelgasparrini/tmux/live)
+
 ##Installation
  ```bash
     brew install tmux #For Mac OS X
     apt-get install tmux #For Ubuntu or Debian derivatives
 ```
-
-[Tmux slides](http://slides.com/jonathanleonelgasparrini/tmux/live)
 
 ## _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 
