@@ -2,6 +2,7 @@
 ##Is there a rivalry?
 
 AngularJS is an open-source web framework to address many of the challenges encountered in developing single-page applications.
+
 ReactJS is an open-source library providing a view for data rendered as HTML. React views are typically rendered using components that contain additional components specified as custom HTML tags.
 
 Learn Angular and React for start build awesome full front-end dynamic apps.
