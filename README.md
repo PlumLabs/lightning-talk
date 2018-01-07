@@ -1,6 +1,7 @@
 # :PLUM Lightning talks
+- [Cyber Security](https://github.com/PlumLabs/lightning-talk/blob/master/cyber_security.md) (by Eze.D)
 - [HUGO](https://github.com/PlumLabs/lightning-talk/blob/master/hugo.md) (by G.M)
-- [Rails 5.1](https://github.com/PlumLabs/lightning-talk/blob/master/rails_5.1.md) (by E.D)
+- [Rails 5.1](https://github.com/PlumLabs/lightning-talk/blob/master/rails_5.1.md) (by Edu.D)
 - [Web Widget](https://github.com/PlumLabs/lightning-talk/blob/master/web_widget.md) (by F.B)
 - [Strong Parameters](https://github.com/PlumLabs/lightning-talk/blob/master/Strong%20Parameters-ra.md) (by R.A)
 - [Ruby on Rails productivity with Vim and Tmux](https://github.com/PlumLabs/lightning-talk/blob/master/ror_vim_tmux.md) (by L.G.)
