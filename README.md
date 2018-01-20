@@ -1,4 +1,6 @@
 # :PLUM Lightning talks
+- [A brief history of front-end](https://github.com/PlumLabs/lightning-talk/blob/master/a_brief_history_of_front_end.md) (by Edu.D)
+- [Turbolinks](https://gitlab.com/edudepetris/turbolinks/tree/master) (by Edu.D)
 - [Cyber Security](https://github.com/PlumLabs/lightning-talk/blob/master/cyber_security.md) (by Eze.D)
 - [HUGO](https://github.com/PlumLabs/lightning-talk/blob/master/hugo.md) (by G.M)
 - [Rails 5.1](https://github.com/PlumLabs/lightning-talk/blob/master/rails_5.1.md) (by Edu.D)
