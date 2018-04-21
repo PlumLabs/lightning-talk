@@ -1,5 +1,6 @@
 # :PLUM Lightning talks
 ### 2018
+- [Rails 5.2](https://github.com/PlumLabs/lightning-talk/blob/master/rails-5.2.md) (by Edu.D &  E.M)
 - [Super history of video games](https://github.com/PlumLabs/lightning-talk/blob/master/super_history_of_video_games.md) (by S.G)
 - [A brief history of front-end](https://github.com/PlumLabs/lightning-talk/blob/master/a_brief_history_of_front_end.md) (by Edu.D)
 - [Turbolinks](https://gitlab.com/edudepetris/turbolinks/tree/master) (by Edu.D)
