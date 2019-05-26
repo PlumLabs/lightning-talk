@@ -1,6 +1,6 @@
 # :PLUM Lightning talks
 ### 2019
-- [Rails 6](rails_6.md)
+- [Rails 6](rails_6.md) (by Edu.D)
 ### 2018
 - [Tips and Tricks](https://www.icloud.com/keynote/0g4oE3iQj44Zuidbz-XW0gNkw#tips_and_tricks)(by Edu.D)
 - [Rails 5.2](rails-5.2.md) (by Edu.D &  E.M)
