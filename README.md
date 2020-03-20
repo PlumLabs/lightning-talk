@@ -1,4 +1,6 @@
 # :PLUM Lightning talks
+### 2020
+- [Javascript](javascript.md) (by G.M & L.G)
 ### 2019
 - [Rails 6](rails_6.md) (by Edu.D)
 ### 2018
